@@ -63,3 +63,7 @@ git stash list
 git stash pop
 git stash clear
 git stash apply <stash id>
+  
+git reset hard undo
+git fsck –cache –no-reflogs –lost-found -> check git fsck man page
+
