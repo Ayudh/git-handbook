@@ -1,6 +1,8 @@
 # git-handbook
 Tips and tricks of Git
 
+`git config --global crendential.helper manager` -> to use windows credential manager to store login details
+
 git config --local user.email "ghari@g.com" --> .git/config
 Everything is an object in git
 .git/objects -> dir will be created with first two chars of commit hash as folder and inside it a file with remaining char as file name 
