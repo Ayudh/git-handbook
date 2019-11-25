@@ -69,3 +69,6 @@ git stash apply <stash id>
 git reset hard undo
 git fsck –cache –no-reflogs –lost-found -> check git fsck man page
 
+`git add file.txt --force` to add a file which is in .gitignore
+`git rm --cached file.txt` to remove
+
