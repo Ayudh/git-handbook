@@ -76,3 +76,8 @@ git fsck –cache –no-reflogs –lost-found -> check git fsck man page
 `git update-index --skip-worktree <file>` instruct git not to touch this file for changes
 
 `git update-index --no-skip-worktree <file>` undo the above command
+
+`git clean -df` to remove untracked files
+`git checkout .` to revert changes
+
+`git clean -df && git checkout .` to clean the working directory
