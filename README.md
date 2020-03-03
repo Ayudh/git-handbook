@@ -81,3 +81,5 @@ git fsck –cache –no-reflogs –lost-found -> check git fsck man page
 `git checkout .` to revert changes
 
 `git clean -df && git checkout .` to clean the working directory
+
+git edit old commit - https://stackoverflow.com/a/2719636
